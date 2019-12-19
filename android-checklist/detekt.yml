@@ -1,0 +1,9 @@
+performance:
+  SpreadOperator:
+    active: false
+
+style:
+  MagicNumber:
+    ignorePropertyDeclaration: true
+  NewLineAtEndOfFile:
+    active: false

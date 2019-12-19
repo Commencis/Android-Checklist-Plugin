@@ -1,0 +1,28 @@
+# IntelliJ
+out/
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+**/.idea
+*.iml
+local.properties
+
+### Java template
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+#Build file
+**/build/
+!android-checklist/src/main/kotlin/com/commencis/checklist/task/build/
+**/.gradle
